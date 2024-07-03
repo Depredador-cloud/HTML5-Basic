@@ -55,7 +55,6 @@ Open In Editor
 
 ### css/style.css:
 css
-
 Verify
 Open In Editor
 
@@ -160,3 +159,87 @@ node_modules/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+
+## HTML Structure HTML documents typically start with a <!DOCTYPE html> declaration, followed by the <html> element, which contains the <head> and <body> elements.
+### html
+Verify
+Open In Editor
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata and links to external resources -->
+  </head>
+  <body>
+    <!-- content of the HTML document -->
+  </body>
+</html>
+
+### Headings HTML provides six levels of headings, from <h1> to <h6>, to define headings and subheadings.
+html
+Verify
+Open In Editor
+
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<h3>Sub-subheading</h3>
+
+
+### Paragraphs and Text The <p> element is used to define a paragraph of text.
+html
+Verify
+Open In Editor
+
+<p>This is a paragraph of text.</p>
+
+
+### Links The <a> element is used to create hyperlinks.
+html
+Verify
+Open In Editor
+
+<a href="https://www.example.com">Visit Example.com</a>
+
+
+### Images The <img> element is used to add images to a web page.
+html
+Verify
+Open In Editor
+
+<img src="image.jpg" alt="An image on the page">
+
+
+### Lists HTML provides two types of lists: ordered lists (<ol>) and unordered lists (<ul>).
+html
+Verify
+Open In Editor
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+
+
+### Tables The <table> element is used to create tables.
+html
+Verify
+Open In Editor
+
+<table>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </tr>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+</table>
